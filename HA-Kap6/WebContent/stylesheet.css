@@ -1,2 +1,6 @@
 @CHARSET "UTF-8";
-p {color: red};
+p {color: red;}
+
+.language_html{
+	font-size: 1.5em;
+}
