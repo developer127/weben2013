@@ -35,6 +35,15 @@ h1{
 .row2{
 	background-color: #F0F0F0;
 }
+th{
+	background-color: #F0F0D0;
+}
 a{
 	target: "_blank";
+}
+.c{
+	text-align: center;
+}
+caption{
+	font-size: 2em;
 }
