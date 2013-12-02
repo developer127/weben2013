@@ -1,6 +1,40 @@
 @CHARSET "UTF-8";
-p {color: red;}
+#wrapper{
+	margin: 0px auto;
+	max-width: 1000px;
+}
+#header{
+	z-index: 1;
+	position:relative;
+	width: 380px;
+	margin:-20px auto 10px;
+	text-align: center;
+	padding: 20px 0px 20px;
+	border: 1px solid black;
+	border-radius: 8px;
+	background-color: white;
+}
+#header p{
+	display: inline;
+	margin: 10px;
+}
+#header img{
+	display: inline;
+	margin: 0px 5px -10px;
+}
+h1{
+	fontsize: 120%;
+}
 
 .language_html{
 	font-size: 1.4em;
+}
+.row1{
+	background-color: #DADADA;
+}
+.row2{
+	background-color: #F0F0F0;
+}
+a{
+	target: "_blank";
 }
