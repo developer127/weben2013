@@ -7,7 +7,7 @@
 	z-index: 1;
 	position:relative;
 	width: 380px;
-	margin:-20px auto 10px;
+	margin:-20px auto 50px;
 	text-align: center;
 	padding: 20px 0px 20px;
 	border: 1px solid black;
@@ -27,7 +27,7 @@ h1{
 }
 
 .language_html{
-	font-size: 1.4em;
+	font-size: 1.35em;
 }
 .row1{
 	background-color: #DADADA;
@@ -37,9 +37,6 @@ h1{
 }
 th{
 	background-color: #F0F0D0;
-}
-a{
-	target: "_blank";
 }
 .c{
 	text-align: center;
