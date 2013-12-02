@@ -1,4 +1,4 @@
-@CHARSET "UTF-8";
+@charset "UTF-8";
 #wrapper{
 	margin: 0px auto;
 	max-width: 1000px;
@@ -22,10 +22,6 @@
 	display: inline;
 	margin: 0px 5px -10px;
 }
-h1{
-	fontsize: 120%;
-}
-
 .language_html{
 	font-size: 1.35em;
 }
