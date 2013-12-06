@@ -6,17 +6,19 @@
 <title>Barrierefreies Suchformular</title>
 </head>
 <body>
-<h1>Wikipedia Suchformular</h1>
-<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
-   <fieldset>
-      <legend>Suchen</legend>
-      <input type="text"   name="search" value="" />
-      <select name="auswahl" id="auswahl">
-      	<option value="Artikel"selected>Artikel</option>
-      	<option value="fulltext">Volltext</option>
-      </select>
-      <button type="submit">Suchen</button>
-   </fieldset>
-</form>
+<div id="wrapper">
+	<h1>Wikipedia Suchformular</h1>
+	<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+	   <fieldset>
+	      <legend>Suchen</legend>
+	      <input type="text"   name="search" value="" inputmode="latin"/>
+	      <select name="auswahl" id="auswahl">
+	      	<option value="Artikel"selected>Artikel</option>
+	      	<option value="fulltext">Volltext</option>
+	      </select>
+	      <button type="submit">Suchen</button>
+	   </fieldset>
+	</form>
+</div>
 </body>
 </html>
