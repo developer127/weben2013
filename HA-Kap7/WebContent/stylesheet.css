@@ -16,7 +16,7 @@ body{
 	font-size: 1em;
 	font-family: 'Trebuchet MS', Georgia, sans-serif;
 }
-#header{
+header{
 	z-index: 1;
 	position:relative;
 	width: 550px;
@@ -28,27 +28,38 @@ body{
 	background-color: #FAFAFA;
 	color: black;
 }
-#header p{
+header p{
 	display: inline;
 	margin: 10px;
 	font-size: 1.1em;
 }
 fieldset{
-	width: 350px;
-	margin: auto;
+	float: left;
+	width: 340px;
 }
 .left{
 	float: left;
 	text-align: right;
-	width:40%;
+	width:25%;
 	margin-right: 2%;
 }
 .right{
-	margin-left: 42%;
+	margin-left: 27%;
 }
 #button{
-	width:80%;
+	width:94%;
 	hight:3em;
-	margin-left: 10%;
+	margin-left: 3%;
 	font-size:2em;
+}
+#suchfeld{
+	hight:1.6em;
+	width: 70%
+}
+input, label, button{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+img{
+	float: right;
 }

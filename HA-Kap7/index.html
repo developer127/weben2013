@@ -7,15 +7,15 @@
 </head>
 <body>
 <div id="wrapper">
-	<div id="header">
+	<header>
 		<a href="http://wave.webaim.org/report#/http%3A%2F%2Fdeveloper127homeworkkap6.cloudcontrolapp.com%2FHA-Kap7%2F">
 			<img src="http://www.w3.org/WAI/wcag2AAA.gif" alt="WCAG 2.0 AAA und Section 508 Validierung" id="HTMLval"/></a>
 		<p>Validierung von WCAG 2.0 AAA und Section 508</p>
-	</div>
+	</header>
 	<h1>Wikipedia Suchformular</h1>
 	<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
 	   <fieldset>
-	      <legend>Suchen</legend>
+	      <legend>Suchformular</legend>
 	      <label for="suchfeld" class=left>Suchfeld</label>
 	      <input type="search" id= "suchfeld" name="search" value=""/><br /><!-- Inputmode="latin"/> -->
 	      <input type="radio" name="auswahl" id="auswahl1" value="Artikel" checked="checked" class="right">
@@ -25,6 +25,9 @@
 	      <button type="submit" id="button" name="go" value="Artikel">Artikelsuche</button>
 	   </fieldset>
 	</form>
+	<a href="http://de.wikipedia.org/wiki/Wikipedia:Hauptseite" title= "Wikipedia Hauptseite">
+		<img src="http://upload.wikimedia.org/wikipedia/commons/e/ec/Wikipedia-logo-v2-de.png" alt="Wikipediaglobe" />
+	</a>
 	<script type="text/javascript">
 	   			var auswertung = document.getElementById("auswahl2");
 	   			auswertung.onchange = function(){
