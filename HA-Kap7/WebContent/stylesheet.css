@@ -5,3 +5,8 @@ input[type=button],
 input[type=submit] {
 cursor: pointer;
 }
+
+#wrapper{
+	margin: 0px auto;
+	max-width: 350px;
+}

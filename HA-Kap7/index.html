@@ -11,14 +11,30 @@
 	<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
 	   <fieldset>
 	      <legend>Suchen</legend>
-	      <input type="search" name="search" value=""/><!-- Inputmode="latin"/> -->
-	      <select name="auswahl" id="auswahl">
-	      	<option value="Artikel" selected>Artikel</option>
-	      	<option value="fulltext">Volltext</option>
-	      </select>
-	      <button type="submit">Suchen</button>
+	      <label for="suchfeld">Suchfeld</label>
+	      <input type="search" id= "suchfeld" name="search" value=""/><br /><!-- Inputmode="latin"/> -->
+	      <input type="radio" name="auswahl" id="auswahl1" value="Artikel" checked="checked">
+	      <label for="auswahl1">Artikel</label><br />
+	      <input type="radio" name="auswahl" id="auswahl2" value= "Volltext"/>
+	      <label for="auswahl2">Volltext</label> <br />
+	      <button type="submit" id="button" name="go" value="Artikel">Artikelsuche</button>
 	   </fieldset>
 	</form>
+	<script type="text/javascript">
+	   			var auswertung = document.getElementById("auswahl2");
+	   			auswertung.onchange = function(){
+	   				document.getElementById('button').innerHTML = "Volltextsuche";
+	   				document.getElementById('button').setAttribute('name', 'fulltext');
+	   				document.getElementById('button').setAttribute('value', 'Volltext');
+	   			};
+	   			auswertung = document.getElementById("auswahl1");
+	   			auswertung.onchange = function(){
+	   				document.getElementById('button').innerHTML = "Artikelsuche";
+	   				document.getElementById('button').setAttribute('name', 'go');
+	   				document.getElementById('button').setAttribute('value', 'Artikel');
+	   			};
+	   			
+	</script>
 </div>
 </body>
 </html>
