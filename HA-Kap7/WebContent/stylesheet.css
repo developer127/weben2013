@@ -8,5 +8,47 @@ cursor: pointer;
 
 #wrapper{
 	margin: 0px auto;
-	max-width: 350px;
+	max-width: 550px;
+}
+body{
+	color:black;
+	background-color:#FEFEFE;
+	font-size: 1em;
+	font-family: 'Trebuchet MS', Georgia, sans-serif;
+}
+#header{
+	z-index: 1;
+	position:relative;
+	width: 550px;
+	margin:-20px auto 50px;
+	text-align: center;
+	padding: 20px 0px 20px;
+	border: 1px solid black;
+	border-radius: 8px;
+	background-color: #FAFAFA;
+	color: black;
+}
+#header p{
+	display: inline;
+	margin: 10px;
+	font-size: 1.1em;
+}
+fieldset{
+	width: 350px;
+	margin: auto;
+}
+.left{
+	float: left;
+	text-align: right;
+	width:40%;
+	margin-right: 2%;
+}
+.right{
+	margin-left: 42%;
+}
+#button{
+	width:80%;
+	hight:3em;
+	margin-left: 10%;
+	font-size:2em;
 }
